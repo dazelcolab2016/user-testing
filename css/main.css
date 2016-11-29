@@ -91,20 +91,60 @@ h3 img{
 .ejemplo p{
     text-align:left;
 }
+.margen div{
+    padding-left: 10px;
+}
 .flecha {
-    text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.quiero img{
+.ofert img{
     width: 570px;
     height: 450px;
 }
-.quiero p,ul li{
+.ofert p,ul li{
     text-align:left;
 }
 .banner-imagen{
-    width: 600px;
-    height: 400px;
+background-image: url(../image/sec-2.jpg);
+    background-size: cover;
+    width: 540px;
+    height: 450px;
+}
+
+.element-style li {
+    text-align: right;
+}
+.element-style li i {
+   margin-right: -25px;
+   margin-top: 60px;
+   display: inline-block;
+   background-color: skyblue;
+   color: white;
+   border-radius: 200px;
+   font-size: 30px;
+   padding: 10px;
+}
+
+.hexagono {
+    background-image: url(../image/separador.png);
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    padding: 0;
+}
+.separador2{
+    margin-top: 0px;        
+   text-align: center;
     
 }
+.banner-imagen2{
+background-image: url(../image/banner.jpg);
+    background-size: cover;
+    width: 560px;
+    height: 450px;
+}
+
+   
+    
