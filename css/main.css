@@ -50,9 +50,7 @@
 .list-inline li a{
     color: #fff;
 }
-hr{
-    border-color: 2px solid darkgray;
-}
+
 .text-skyblue{
     color:skyblue;
 }
@@ -72,4 +70,41 @@ hr{
 h6,p{
     text-align: center;
 }
-
+.separador{
+  margin-top: 70px;        
+  text-align: center;
+    
+}
+hr{
+    border-color: 2px solid darkgray;
+    margin-top: -47px;
+    margin-bottom: 83px;
+}
+h3 img{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+.ejemplo h3{
+    text-align: center;
+}
+.ejemplo p{
+    text-align:left;
+}
+.flecha {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.quiero img{
+    width: 570px;
+    height: 450px;
+}
+.quiero p,ul li{
+    text-align:left;
+}
+.banner-imagen{
+    width: 600px;
+    height: 400px;
+    
+}
