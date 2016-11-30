@@ -1,0 +1,14 @@
+@media(max-width:1000px){
+    #fondo-banner{
+        height: 100%
+    }
+    .frase h1{
+        font-size:30px;
+    }
+    .footer-prueba .boton{
+        margin: 6% 45% 0;
+    }
+    .iconos span{
+        visibility: hidden;
+    }
+}

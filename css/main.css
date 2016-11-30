@@ -1,8 +1,6 @@
-*{outline: 1px rgba(255,0,0,0.4) solid;}
+/**{outline: 1px rgba(255,0,0,0.4) solid;}*/
 
-.aling-header{
-    margin-top: 30px;
-}
+
 .sombra{
     height: 539px;
     color: #fff;
@@ -20,6 +18,10 @@
     border-radius: 100%;
     color:skyblue;
 }
+.size-logo{
+    width: 200px;
+    height: auto;
+}
 
 .img-fondo{
     background-image:url(../image/large.jpg);
@@ -32,7 +34,7 @@
     color: #fff;
 }
 .header-banner{
-    margin-top: 84px;
+    margin-top: 115px;
     color: #fff;
     height: 139px;
     background: rgba(78,126,176,0.9);
@@ -128,6 +130,16 @@ h3 img{
     background-size: cover;
     width: 570px;
     height: 450px;
+}
+.navbar button span{
+    background-color: white;
+}
+.navbar button{
+    background-color: skyblue;
+}
+.nav li a{
+    color: #fff;
+    font-size: 14px;
 }
 
 .element-style li {

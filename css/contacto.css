@@ -1,0 +1,30 @@
+.formulario{
+width: 50%;
+height: auto;
+background: #fff;
+color: black;
+align-content: center;
+border-Top: 9px solid cornflowerblue;
+    position: relative;
+    margin-top:10%;
+    transform: translateX(50%);
+    
+}
+
+.formulario h3{
+    border-bottom: 3px solid gray;
+    
+}
+.btn-color{
+    background-color:cornflowerblue;
+    color: #fff;
+    width: 160px;
+    margin-bottom: 10px;
+}
+.contacto{
+    position: absolute;
+    width: 100%;
+}
+.red-icon{
+    color: red;
+}
