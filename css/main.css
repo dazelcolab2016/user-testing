@@ -130,6 +130,7 @@ h3 img{
     background-size: cover;
     width: 570px;
     height: 450px;
+    
 }
 .navbar button span{
     background-color: white;
@@ -144,6 +145,7 @@ h3 img{
 
 .element-style li {
     text-align: right;
+    list-style: none;
 }
 .element-style li i {
    margin-right: -40px;
