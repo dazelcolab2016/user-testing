@@ -1,11 +1,14 @@
 *{outline: 1px rgba(255,0,0,0.4) solid;}
-.list-inline{
-   
-}
+
 .aling-header{
     margin-top: 30px;
-    
 }
+.sombra{
+    height: 539px;
+    color: #fff;
+    background: rgba(65,72,80,0.6);
+}
+
 .icon-container{
     width: 150px;
     height: 150px;
@@ -22,7 +25,6 @@
     background-image:url(../image/large.jpg);
     background-size: cover;
     height: 600px;
-    opacity: 0.4;
 }
 .frase{
     text-align: center;
@@ -30,12 +32,13 @@
     color: #fff;
 }
 .header-banner{
-    margin-top: 120px;
+    margin-top: 84px;
     color: #fff;
     height: 139px;
     background: rgba(78,126,176,0.9);
-   
-   
+}
+.header-banner p{
+ margin-left: 130px;   
 }
 .header-banner button {
     background-color: transparent;
@@ -49,6 +52,12 @@
 }
 .list-inline li a{
     color: #fff;
+}
+.services{
+    margin-top: 60px;
+}
+.circulares{
+    margin-top: 50px;
 }
 
 .text-skyblue{
@@ -85,14 +94,19 @@ h3 img{
     height: 30px;
     text-align: center;
 }
+
 .ejemplo h3{
     text-align: center;
 }
 .ejemplo p{
     text-align:left;
 }
+
 .margen div{
-    padding-left: 10px;
+    padding-left: 20px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding-bottom: 450px;
 }
 .flecha {
     margin-top: 30px;
@@ -103,12 +117,16 @@ h3 img{
     height: 450px;
 }
 .ofert p,ul li{
-    text-align:left;
+    text-align:left;   
 }
+.ofert ul {
+   padding: 15px;    
+}
+
 .banner-imagen{
-background-image: url(../image/sec-2.jpg);
+    background-image: url(../image/sec-2.jpg);
     background-size: cover;
-    width: 540px;
+    width: 570px;
     height: 450px;
 }
 
@@ -116,13 +134,13 @@ background-image: url(../image/sec-2.jpg);
     text-align: right;
 }
 .element-style li i {
-   margin-right: -25px;
+   margin-right: -40px;
    margin-top: 60px;
    display: inline-block;
    background-color: skyblue;
    color: white;
    border-radius: 200px;
-   font-size: 30px;
+   font-size: 25px;
    padding: 10px;
 }
 
@@ -131,20 +149,61 @@ background-image: url(../image/sec-2.jpg);
     background-size: cover;
     width: 70px;
     height: 70px;
-    margin-top: 10px;
-    padding: 0;
+    margin-left: 540px;
+    margin-bottom: 80px;
 }
 .separador2{
-    margin-top: 0px;        
+   margin-top: -41px;        
    text-align: center;
     
 }
 .banner-imagen2{
 background-image: url(../image/banner.jpg);
     background-size: cover;
-    width: 560px;
-    height: 450px;
+    width: 450px;
+    height: 300px;
 }
+.argumento h3 {
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+.argumento p{
+    text-align: left;
+    
+}
+.argumento ul {
+    padding: 14px;
+}
+.margen2{
+    padding-left: 100px;
+}
+.footer{
+    background-color: #2a3541;
+    color: #fff;
+}
+
+.element-footer{
+    color: skyblue;
+    font-size: 25px;
+    text-align: right;
+    margin-right: 0px;
+    list-style: none;
+}
+.footer span {
+   
+    font-size: 10px;
+    margin-left: 390px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  
+}
+footer p,a{
+    text-align: left;
+    font-size: 12px;
+}
+
+
+
 
    
     

@@ -6,6 +6,11 @@
 	  	<link rel="stylesheet" href="css/animate.css">
 	  	<link rel="stylesheet" href="css/bootstrap.css">
 	  	<link rel="stylesheet" href="css/font-awesome.min.css">
+	  	<!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
 	  	<link rel="stylesheet" href="css/icomoon.css">
 	  	<link rel="stylesheet" href="css/main.css">
 	  	<link rel="stylesheet" href="css/queries.css">
@@ -14,20 +19,38 @@
 	<!--Cabecera-->
 	<section>
 	<header class="img-fondo" >
+       <div class="sombra" >
+       
 	    <div class="container">
              <div class="row aling-header" >
                 <div class="col-md-3" >
                    <img  class="img-responsive"src="image/user-r.png" alt="">                  
                 </div>
-                 <div class="col-md-9">
-                    <nav>
-                        <ul class="list-inline text-right">
-                            <li><b><a href="#">¿Que me ofrece?</a></b></li>
-                            <li><b><a href="#">¿Como Funciona?</a></b></li>
-                            <li><b><a href="#">¿Por qué usarlo?</a></b></li>
-                            <li><b><a href="#">Contactanos</a></b></li>
-                        </ul>
+                 <div class="col-md-9 ">
+                    <nav class="navbar navbar-default" role="navigation">
+                    <!-- El logotipo y el icono que despliega el menú se agrupan
+                    para mostrarlos mejor en los dispositivos móviles -->
+                    <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Desplegar navegación</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    </div>
+                    <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+                    otro elemento que se pueda ocultar al minimizar la barra -->
+                    <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">¿Que me ofrece?</a></li>
+                    <li><a href="#">¿Como Funciona?</a></li>
+                    <li><a href="#">¿Por qué usarlo?</a></li>
+                    <li><a href="#">Contactanos</a></li>
+                    </ul>
+                    </div>
                     </nav>
+                 
                  </div>  
              </div>
              <!--Cabecera frase-->  
@@ -51,13 +74,14 @@
                    </div>    
                 </div>
              </div>
+         </div>
 	</header>
    </section>
 <!--Seccion Servicios-->
    <section class="services">
      <div class="container">
        <h3 class="text-center text-skyblue">Nuestros Servicios</h3>
-        <div class="row">
+        <div class="row circulares">
          <div class="col-md-4" >
             <div class="icon-container">
               <i class="icon-video"></i>
@@ -68,7 +92,7 @@
             </div>
          
            <div class="col-md-4">
-             <div class="icon-container"><i class="icon-clock"></i></div>
+             <div class="icon-container"><i      class="icon-clock"></i></div>
                 <h6 class="text-darkblue">Compra el<br>Servicio Completo </h6>
                 <p class="text-blackblue">Si te gusto compra nuestro servicio completo que incluye 7 videos y feedback.</p>
                  
@@ -123,7 +147,9 @@
                       
                 </div>
                  
-                
+                  <div class="separador2 hexagono">
+   
+                 </div>    
             </div>
             <div class="col-md-6 margen">
                 <div class="embed-responsive embed-responsive-4by3">
@@ -146,56 +172,72 @@
                 <p class="text-blakblue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus laudantium at dolorem ut, consectetur nihil deserunt nisi non rem obcaecati ratione ipsa magni aut, esse sint minima quaerat, beatae, reprehenderit.</p> 
                </div>
             </div>
-         </div>      
+         </div> 
+                 
     </div>
+
 </section>
-  <div class="separador2">
-      <img src="image/separador.png" alt="">
-       <hr>   
-     </div>
+ 
+ 
    
- <section class="argumento">
+    <section class="argumento">
       <div class="container">
          <div class="row">
-            <div class="col-md-6 margen">
-                <div class="embed-responsive embed-responsive-4by3">
-                <h3 >Lo quiero ¿Que Hago? </h3>
-                <h4 class="text-skyblue"> Paso 1: Envianos tu  link </h4>
-                <p class="text-blakblue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus laudantium at dolorem ut, consectetur nihil deserunt nisi non rem obcaecati ratione ipsa magni aut, esse sint minima quaerat, beatae, reprehenderit.</p>
-                
-                
-                <h4 class="text-skyblue"> Paso 2: Describe a tu publico objetivo </h4>
-                <p class="text-blakblue">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <ul class="text-blakblue">
-                    <li> A primera vista¿de que crees que trata la pagina?</li>
-                    <li>Busca el boton de inscribirte y comprar</li>
-                    <li>¿Es facil o dificil leer textos?</li>
-                            
+            <div class="col-md-6 margen2">
+                <h3 class="text-skyblue">Por qué usar <img src="image/logo-2.jpg" alt=""></h3>
+                <p class="text-blackblue">En el area en la que queremos encontarnos, la web de ha convertido en el mejor sitio para llegar a millones de personas en segundos, pero ¿que pasa si el producto digital que ofreces no es bueno o no se entiende? Pierdes esta enorme oportunidad. Con <font color="40E0D0">User Testing 360.</font>puedes enetender la experiencia de uso de tu pagina o producto digital y mejorarla para que satisfaga todas las necesidades de tus usuarios. Con<font color="40E0D0">User Testing 360.</font>podras entender:</p>
+                <ul>
+                    <li>Como tu público objetivo verdaderamente usa tu producto</li>
+                    <li>Que se hace facil o dificil al navegar en tu producto</li>
+                    <li>Que es lo que tu publico quiere hacer y tal vez no obtiene o consigue</li>
                 </ul>
-                <p class="text-blakblue">Delectus laudantium.</p>
                 
-                 <h4 class="text-skyblue"> Paso 3: Recibe un video y el feddback completo </h4>
-                <p class="text-blakblue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus laudantium at dolorem ut, consectetur nihil deserunt nisi non rem obcaecati ratione ipsa magni aut, esse sint minima quaerat, beatae, reprehenderit.</p> 
-               </div>
+                 <p><font color="40E0D0">User Testing 360.</font>te ayudara a responder estas preguntas y muchas más.Es el toque final perfecto para tu pagina o producto digital. </p>
             </div>
-            
             <div class="col-md-6">
                 <div class="banner-imagen2">
-                  
-                      
-                  
-                      
+                </div>    
+           </div>
+        </div>      
+      </div>
+    </section>
+    
+    <footer>
+         <div class="header-banner" >
+                <div class="container">
+                   <div class="row">
+                      <div class="col-md-4 col-md-offset-2 text-right">
+                         <h3>PRUEBA GRATUITA</h3>
+                         <p>Obten un video gratis en 5 minutos</p>
+                      </div>
+                      <div class="col-md-4" >
+                         <button>
+                             Pruebalo gratis
+                         </button>
+                      </div> 
+                   </div>    
                 </div>
-                 
-                
-            </div>
-            
-         </div>      
-    </div>
-</section>
-		
-   
-   
-   
-    </body>
+             </div>
+             
+              <div class="footer" >
+                <div class="container">
+                   <div class="row">
+                      <div class="col-md-6">
+                      <p>Escribenos a:</p>
+                      <a href="#">experienciadelusuario.lab@gmail.com </a>
+                      <p>telf: 989673925</p>
+                      </div>
+                      <div class="col-md-6" >
+                      <ul class="element-footer list-inline">
+                      <li><i class="icon-facebook" ></i> </li>
+                      <li> <i class="icon-twitter" ></i> </li>
+                    </ul>
+                       <span>Copyright &copy;2015-User Testing 360</span>
+                      
+                      </div> 
+                   </div>    
+                </div>
+             </div>
+    </footer>
+</body>
 </html>

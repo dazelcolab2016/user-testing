@@ -2,8 +2,58 @@
 <html>
 <head>
   <title>Contacto</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/queries.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    
+	<link rel="stylesheet" type="text/css" href="css/utilities.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
 </head>
-<body>
+<body class="img-fondo">
 <!--Escribe aqui tu codigo-->
+ <section id="contacto"> 
+           <div class="container">
+              <div class="dadmyform">
+                 <h2 class="title-myform">Contáctanos</h2>
+              
+                 <form class="contact_form" action="" method="post" name="contact_form">
+              
+                      <div class="form-group myform"> 
+                        <div class="row">
+                          <div class="col-md-12 col-xs-6">
+
+                              <div class="input-group">
+                                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                  <input  name="name" placeholder="Nombre" class="form-control"  type="text" required>    
+                              </div>
+
+                              <div class="input-group">
+                                  <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                  <input  type="email" name="email" placeholder="Email" class="form-control"   required>
+                                  <span class="form_hint">Formato apropiado "name@something.com"</span>
+                              </div>
+
+                              <div class="input-group">
+                                  <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                  <textarea class="form-control mensaje" rows="5" name="message" placeholder="Mensaje" required></textarea>
+                              </div>
+                              <div>
+                                  <button class="input-group boton col-md-12 col-xs-12">ENVIAR</button>
+                              </div>
+                          </div>
+                        </div>
+                     </div>
+                 </form>
+              </div>
+
+           
+           </div>
+        </section>
+
 </body>
 </html>
